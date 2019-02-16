@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1921661261474336}
+  m_IsPrefabAsset: 1
+--- !u!1 &1921661261474336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4083211233959380}
+  - component: {fileID: 114020184222087994}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083211233959380
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921661261474336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114020184222087994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921661261474336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb83c02d22b7a149bdbbc5b68a9a59f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOver:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  gametimer: 120
+  respawnTimer: 3
+  TimeDisplay: {fileID: 0}
+  deathCamera: {fileID: 0}
+  playerKilledPopUp: {fileID: 0}
+  playerPrefabs:
+  - {fileID: 1027985551159450, guid: 65eabef95af130549bd727b06b18997c, type: 2}
+  - {fileID: 1103957623124408, guid: c17370335d6564b4b94e9dbdf2550b19, type: 2}
+  - {fileID: 1790638879893582, guid: 4a3453e50cccc1c429c75a01d02386f7, type: 2}
+  - {fileID: 1434496049495806, guid: dd68a41ec3437234e928da73da004ee3, type: 2}
+  - {fileID: 1444741944503192, guid: 31fc525d2a8cac441850fff23e2fb723, type: 2}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bloodDecals:
+  - {fileID: 100000, guid: 358b75ea5451cf143ab19029a189097d, type: 2}
+  - {fileID: 100000, guid: cfc7596704bbd7f489156fcd4c05c7e9, type: 2}
+  - {fileID: 100000, guid: 18a11fd6df8ceb449b8785301026d639, type: 2}
+  - {fileID: 100000, guid: 6fe4d785744af2c40a2157f5b209d97f, type: 2}
+  - {fileID: 100000, guid: aec54d7a991d7b644b145d550a4b7831, type: 2}
+  - {fileID: 100000, guid: 14987c031123b98408a165a8bf1288d4, type: 2}
+  - {fileID: 100000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 2}
